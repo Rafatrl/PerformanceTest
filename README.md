@@ -81,7 +81,7 @@ Foi configurada uma simulação de 250 usuários selecionando trajetos aleatóri
 
 ##### Métricas Coletadas
 Com o dashboard gerado temos as seguintes informações:
-[carregar imagem]
+![](https://github.com/Rafatrl/PerformanceTest/blob/main/statisticsLoad.png)
 
 Totalizando um número de **1000 usuários**, o valor da mediana estava dentro do critério de aceite exibindo **0.5 segundos** com percentil 90 do tempo de resposta em **1.2 segundos** totalizando uma média de requisições de **0.6 segundos**, **411KB/seg** de pacotes recebidos e **50KB/seg** de pacotes enviados. O tempo médio de resposta  das requisições ao longo do teste foi de **0.6s**. A análise do tempo de resposta em relação ao volume de requisições consta uma média de **68s** tyransações por segundo, concluindo com **0** percento de erros e falhas.
 
@@ -91,7 +91,7 @@ Foi configurado um grupo de 300 usuários, onde 10 iniciaram acesso ao site e a 
 
 ##### Métricas Coletadas
 Com o dashboard gerado temos as seguintes informações:
-[carregar imagem]
+![](https://github.com/Rafatrl/PerformanceTest/blob/main/statisticsStress.png)
 
 No Teste de Pico o valor da mediana está exibindo **0.7s** com percentil 90 do tempo de resposta em **21.6s** totalizando uma média de requisições de **58 segundos**, **304KB/seg** pacotes recebidos e **36KB/seg** enviados. Tempo médio de resposta das requisições ao longo do tempo de teste foi de **5.8s**. A análise do tempo de resposta em relação ao volume de requisições consta uma média de **49s** concluindo com **0** percento de erros e falhas.
 
